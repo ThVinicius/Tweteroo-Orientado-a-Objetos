@@ -1,4 +1,4 @@
-export default class tweetsRepositories {
+class TweetsRepositories {
   constructor() {
     this.tweets = []
   }
@@ -17,3 +17,7 @@ export default class tweetsRepositories {
     return this.tweets
   }
 }
+
+const tweetsRepositories = new TweetsRepositories()
+
+export default tweetsRepositories

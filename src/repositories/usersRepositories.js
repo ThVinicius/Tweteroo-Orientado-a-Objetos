@@ -1,4 +1,4 @@
-export default class usersRepositories {
+class UsersRepositories {
   constructor() {
     this.users = []
   }
@@ -17,3 +17,7 @@ export default class usersRepositories {
     return user
   }
 }
+
+const usersRepositories = new UsersRepositories()
+
+export default usersRepositories
