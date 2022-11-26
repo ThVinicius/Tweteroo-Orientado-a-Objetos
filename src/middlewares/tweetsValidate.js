@@ -1,7 +1,7 @@
-export default class validateMiddleware {
+class TweetsValidate {
   constructor() {}
 
-  signUp(req, res, next) {
+  addTweet(req, res, next) {
     const { tweet, username } = req.body
 
     if (!username || !tweet) {
@@ -21,3 +21,7 @@ export default class validateMiddleware {
     next()
   }
 }
+
+const tweetsValidate = new TweetsValidate()
+
+export default tweetsValidate
