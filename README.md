@@ -18,6 +18,11 @@
 - [Descrição](#description)
 - [Documentação da API](#api)
   - [Rotas de autenticação](#authentication-routes)
+  - [Rotas do tweets](#tweets-routes)
+    - [Adicionar um tweet](#post-tweet)
+    - [Pegar todos os tweets](#get-tweets-user)
+    - [Pegar todos os tweets](#get-tweets)
+  - [Rodar localmente](#run-locally)
 
 #
 
@@ -160,6 +165,8 @@ GET /tweets
 ```
 
 #
+
+<div id='run-locally'/>
 
 ## Rodar localmente
 
