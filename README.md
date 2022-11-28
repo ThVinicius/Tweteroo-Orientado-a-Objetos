@@ -20,7 +20,7 @@
   - [Rotas de autenticação](#authentication-routes)
   - [Rotas do tweets](#tweets-routes)
     - [Adicionar um tweet](#post-tweet)
-    - [Pegar todos os tweets](#get-tweets-user)
+    - [Pegar os tweets do usuário](#get-tweets-user)
     - [Pegar todos os tweets](#get-tweets)
   - [Rodar localmente](#run-locally)
 
